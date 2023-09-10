@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(8, 8, 78);
+    background-size: cover;
+   
+    
+
+
+}
+ header section pre,header section p, header a, .Introduccion p, .Introduccion a, .TextoDePrincipal p, .TextoDePrincipal a{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+header a:hover{
+    transform: scale(1.05);
+    background-color: rgb(218, 65, 10);
+}
+.Bombilla{
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+
+.BotonesIniciar{
+    text-decoration:none ; 
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(218, 65, 10);
+    font-size: 16px;
+}
+header  section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+}
+header input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+}
+.Introduccion a {
+    background-color:  rgb(218, 65, 10);
+    padding: 15px;
+    border-radius:30px ;
+    display: flex;
+    font-size: 30px;
+    margin: 50px;
+}
+.Introduccion a:hover, .BotonesIniciar:hover{
+    box-shadow: 2px 2px 10px 5px black;
+    transform: scale(1.05);
+    background-color:rgb(190, 51, 1) ;
+}
+.Introduccion :nth-child(1){
+    font-size: 50px;
+    margin: 15px;
+    
+}
+
+.Introduccion{
+    display: flex;
+    position: relative;
+    top: 80px;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.Introduccion :nth-child(2){
+    font-size: 25px;
+    margin: 0px;
+}
+
+
+.TextoDePrincipal{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 240px;
+}
+.TextoDePrincipal :nth-child(1){
+    font-size: 40px;
+    margin: 0px;
+}
+.TextoDePrincipal :nth-child(2){
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 350px;
+    flex-wrap: wrap;
+}
+.CuadroPrincipal{ 
+    background-color:rgb(218, 65, 10);
+    height: 300px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.CuadroBlanco{
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    position:relative;
+    top: -10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.CuadroBlanco .ImagenP{
+    display: flex;
+    height: 190px;
+    margin: 0px;
+    z-index: 1;
+   
+}
+
+.CuadroPrincipal:hover{
+    height: 550px;
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px 10px;
+
+}
+.CuadroPrincipal:hover .Texto{
+    visibility: visible;
+    opacity:1 ;
+    transition-delay: 0.4;
+    margin-top: -35px;
+    color: black;
+}
+
+.CuadroPrincipal .Texto {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -140px;
+    max-width: 300px;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -500px;
+    background-color: rgb(218, 65, 10);
+    width: 100%;
+    height: 100px;
+    
+}
