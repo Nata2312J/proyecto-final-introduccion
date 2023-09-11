@@ -165,3 +165,178 @@ footer {
     height: 100px;
     
 }
+
+
+.SeccionGrandePrincipiante{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: px;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.SeccionGrandePrincipiante h1{
+    font-size: 50px;
+    color:rgb(218, 65, 10);
+    font-family: 'Nunito', sans-serif;
+   
+}
+.SeccionGrandePrincipiante p{
+    font-size:25px ;
+    margin-top: 0px;
+    color: white;
+   
+}
+
+.PrincipiantesMain{
+    color: rgb(0, 0, 0);
+    display: flex;
+    top: 50px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 40px;
+    width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+} 
+
+main ul{ 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+}
+
+main section img{
+    display: flex;
+    position: relative;
+   
+}
+main section img{
+    position: relative;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.ListaPrincipiantes, .TextoPrincipal{
+    color: white;
+}
+.EnlacesPrincipiantes{
+    color:rgb(218, 65, 10) ;
+    text-decoration: none;
+}
+.PrincipianteListening{
+    color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    top: 100px;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 40px;
+    width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    flex-direction: column;
+    height: auto;
+
+}
+
+.PrincipianteListening section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.PrincipianteListening section img{
+    width: 450px;
+    margin: 10px;
+    
+}
+.PrincipianteListening h1, .PrincipianteListening h2{
+    color:rgb(218, 65, 10) ;
+}
+.PrincipianteListening p{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.PrincipianteListening h2{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.ListeningDos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ListeningTres{
+    background-color: rgb(218, 65, 10);
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.ListeningTres a{
+    color: white;
+    padding: 15px;
+    text-decoration:none; 
+}
+
+
+
+
+.PrincipalAbecedario{ 
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+ position: relative;
+ top: 10px;
+}
+.PrincipalAbecedario h1{
+    font-size: 50px;
+    color:rgb(218, 65, 10);
+    margin-bottom: 0px; ;
+}
+.PrincipalAbecedario h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 0px;
+}
+.VideoAbecedario{
+    margin: 10px;
+}
+.PrincipalAbecedario p{
+    color: white;
+    font-size: 25px;
+    width:1000px ;
+}
+.PrincipalAbecedario span{
+    color: rgb(218, 65, 10);
+}
+.PrincipalAbecedario img{
+    border-radius: 10px;
+    height: 600px;
+    margin: 60px;
+}
+
+.PrincipalAbecedario section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+    
+}
+
+.PrincipalAbecedario section p {
+    width: 500px;
+    margin: 60px;
+}
+
+
+
+
+
