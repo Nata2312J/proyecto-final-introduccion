@@ -36,7 +36,7 @@ header  section{
     justify-content: space-around;
     font-size: 22px;
 }
-header input{
+.BarraBusqueda{
     width: 400px;
     height: 30px;
     border-radius: 20px;
@@ -49,7 +49,7 @@ header input{
     font-size: 30px;
     margin: 50px;
 }
-.Introduccion a:hover, .BotonesIniciar:hover{
+.Introduccion a:hover, .BotonesIniciar:hover, .ListeningTres a:hover, .PrincipianteSpeaking a:hover, .PrincipiantesReading a:hover{
     box-shadow: 2px 2px 10px 5px black;
     transform: scale(1.05);
     background-color:rgb(190, 51, 1) ;
@@ -274,20 +274,92 @@ main section img{
     flex-direction: column;
 }
 .ListeningTres{
-    background-color: rgb(218, 65, 10);
-    margin: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .ListeningTres a{
     color: white;
     padding: 15px;
     text-decoration:none; 
+    background-color: rgb(218, 65, 10);
+    margin: 50px;
+    border-radius: 15px;
 }
 
+.PrincipianteSpeaking {
+    display: flex;
+    position: relative;
+    top: 150px;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 40px;
+    width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    height: auto;
+    flex-direction: column;
+    
+}
 
+.PrincipianteSpeaking{
+    position: relative;
+    top: 150px;
+}
+.PrincipianteSpeaking div, .PrincipiantesReading section, .PrincipiantesWriting div, .PrincipiantesWriting p{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    margin: 25px;
+}
+.PrincipianteSpeaking img, .PrincipiantesReading img, .PrincipiantesWriting img{
+    width: 450px;
+    
+}
+.PrincipianteSpeaking h1, .PrincipiantesReading h1, .PrincipiantesWriting h1{
+    color: rgb(218, 65, 10);
+    font-size: 40px;
+}
 
+.PrincipianteSpeaking a, .PrincipiantesReading a{
+    padding: 5px;
+    background-color:rgb(218, 65, 10) ;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: white;
+}
 
+.PrincipiantesReading{
+    display: flex;
+    position: relative;
+    top: 200px;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 40px;
+    width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    height: auto;
+    flex-direction: column;
+}
+
+.PrincipiantesWriting{
+    display: flex;
+    position: relative;
+    top: 250px;
+    box-shadow: 10px 10px 10px 10px;
+    padding: 40px;
+    width: 1000px;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    height: auto;
+    flex-direction: column;
+}
 .PrincipalAbecedario{ 
  display: flex;
  flex-direction: column; 
@@ -336,6 +408,40 @@ main section img{
     margin: 60px;
 }
 
+
+.InicioSesion{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    margin: auto;
+    height: 300px;
+    position: relative;
+    top: 20px;
+}
+.InicioSesion h1{
+    color:rgb(218, 65, 10) ;
+}
+.InputSesion{
+    display: flex;
+   
+    width: 300px;
+    height: 25px;
+}
+.OlvContraseña, .CrearCuenta{
+    text-decoration: none;
+    color: rgb(8, 8, 78);
+}
+.OlvContraseña:hover, .CrearCuenta:hover{
+    color: rgb(218, 65, 10);
+}
+
+.IniciarEnviarCrear { 
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
