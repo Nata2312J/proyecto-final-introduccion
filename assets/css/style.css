@@ -49,7 +49,7 @@ header  section{
     font-size: 30px;
     margin: 50px;
 }
-.Introduccion a:hover, .BotonesIniciar:hover, .ListeningTres a:hover, .PrincipianteSpeaking a:hover, .PrincipiantesReading a:hover{
+.Introduccion a:hover, .BotonesIniciar:hover, .ListeningTres a:hover, .PrincipianteSpeaking a:hover, .PrincipiantesReading a:hover, .EnviarReading{
     box-shadow: 2px 2px 10px 5px black;
     transform: scale(1.05);
     background-color:rgb(190, 51, 1) ;
@@ -268,9 +268,13 @@ main section img{
     font-size: 35px;
     margin-bottom: 0px;
 }
+.ListeningDos h2{
+    color:rgb(218, 65, 10) ;
+    margin: 0px;
+}
 .ListeningDos{
     display: flex;
-    align-items: center;
+    align-items: space-around;
     flex-direction: column;
 }
 .ListeningTres{
@@ -322,7 +326,7 @@ main section img{
     font-size: 40px;
 }
 
-.PrincipianteSpeaking a, .PrincipiantesReading a{
+.PrincipianteSpeaking a, .PrincipiantesReading a, .PrincipiantesWriting a{
     padding: 5px;
     background-color:rgb(218, 65, 10) ;
     border-radius: 20px;
@@ -409,24 +413,29 @@ main section img{
 }
 
 
-.InicioSesion{
+.InicioSesion, .Registrarse{
     display: flex;
     flex-direction: column;
     width: 400px;
     background-color: white;
     border-radius: 15px;
     align-items: center;
+    justify-content: space-evely;
     margin: auto;
-    height: 300px;
+    height: 400px;
     position: relative;
     top: 20px;
 }
-.InicioSesion h1{
+.Registrarse{
+    height: 500px;
+}
+
+.Registrarse h1, .InicioSesion h1, .AcentoAusContenido h2{
     color:rgb(218, 65, 10) ;
 }
+
 .InputSesion{
     display: flex;
-   
     width: 300px;
     height: 25px;
 }
@@ -437,12 +446,233 @@ main section img{
 .OlvContraseña:hover, .CrearCuenta:hover{
     color: rgb(218, 65, 10);
 }
+.CrearCuenta{
+    margin-right: 170px;
+}
+.InputSesionBoton:hover, .InputRegistroBoton:hover{
+    background-color:rgb(218, 65, 10) ;
+    transform: scale(1.03);
+    box-shadow: 2px 2px 2px 2px;
+}
 
-.IniciarEnviarCrear { 
-    display: flex;
-    justify-content: space-around;
+.Registrarse div{
+    margin-top: 40px;
+    position: relative;
+    top: -10px;
+}
+.InputRegistroBoton{ 
+    position: relative;
+    left: 250px;
+    margin-top: 1px;
+}
+
+.InicioSesion div{
+    position: relative;
+    top: -30px;
 }
 
 
+.titulo, .AprendizajeTitulo h1{
+    display: flex;
+    justify-content: center;
+    color:rgb(218, 65, 10) ;
+    
+} 
+.titulo{
+    font-size: 25px;
+}
+.AprendizajeTitulo h1{
+    font-size: 40px;
+}
+.AprendizajeTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+} 
+.AprendizajeTitulo p{
+    color: white;
+    font-size: 25px;
+    
+}
+.PrincipalAprendizaje{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.PrincipalAprendizaje div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
 
+}
+.ImagenesAprendizaje{
+    width: 350px;
+}
 
+.SeccionGrandeBri{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.SeccionGrandeBri h1, .SeccionGrandePrincipianteAus h1, .SeccionGrandePrincipianteAmer h1{
+    color:rgb(218, 65, 10) ;
+    font-size: 40px;
+    margin: 0px;
+
+}
+.BriPrimerContenido, .SeccionGrandePrincipianteAus div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    align-items: center;
+}
+.BriPrimerContenido p, .SeccionGrandePrincipianteAus p{
+    color: white;
+    font-size: 25px;
+}
+.MapaBri{
+    height: 400px;
+    margin: 20px;
+
+}
+.AcentoAusContenido{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 10px 10px;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.SeccionGrandePrincipianteAus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.SeccionGrandePrincipianteAus img {
+    width: 400px;
+    margin: 20px;
+}
+.SeccionGrandePrincipianteAmer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SeccionGrandePrincipianteAmer div{
+    display: flex;
+    justify-content: center;
+    align-items: cent;
+    color: white;
+    font-size: 25px;
+    width: 1000px;
+}
+.SeccionGrandePrincipianteAmer h1{
+    display: flex;
+    justify-content: center;
+}
+
+.AcentoAustralianoPalabras img{
+    width: 300px;
+    border-radius: 20px;
+    margin-right: 100px;
+    
+}
+.AcentoAustralianoPalabras {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    font-size: 25px;
+    color: white;
+}
+.AcentoAustralianoPalabras p{
+    margin: 10px;
+    display: flex;
+    
+} 
+.AcentoAusContenido h1{
+    color: rgb(218, 65, 10);
+    font-size: 40px;
+}
+.AcentoAustralianoPalabras audio{
+    margin-top:  40px; ;
+}
+.AcentoAustralianoPalabras p:nth-child(1){
+    color:  rgb(218, 65, 10);
+}
+.AcentoAusContenido li{
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+}
+.AcentoAusContenido h2{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.readingTitulo{
+    color:  rgb(218, 65, 10);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.GrandeReading{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px
+}
+.GrandeReading div{
+    display: flex;
+    flex-direction: column;
+}
+.GrandeReading h2, .GrandeReading p:nth-child(6), .GrandeReading b{
+    color:rgb(218, 65, 10) ;
+}
+.GrandeReading p, .GrandeReading div{
+    color: white;
+    font-size: 25px;
+    margin-left:30px ;
+}
+.EnviarReading{
+    display: flex;
+    width: 100px;
+    font-size: 25px;
+    margin: 50px;
+}
+
+.TituloNosotros, .writingTitulo{
+   color:rgb(218, 65, 10) ;
+   font-size: 40px;
+   display: flex;
+   justify-content: center;
+}
+.InformacionNosotros, .cuadroWritingP{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1000px;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.InformacionNosotros h2, .cuadroWritingP b, .cuadroWritingP h2{
+    font-size: 25px;
+    color: rgb(218, 65, 10);
+}
+.InformacionNosotros p, .cuadroWritingP p{
+    color: white;
+    font-size: 25px;
+}
