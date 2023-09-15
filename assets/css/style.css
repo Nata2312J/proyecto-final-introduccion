@@ -415,7 +415,6 @@ main section img{
 
 .InicioSesion, .Registrarse{
     display: flex;
-    flex-direction: column;
     width: 400px;
     background-color: white;
     border-radius: 15px;
@@ -432,6 +431,8 @@ main section img{
 
 .Registrarse h1, .InicioSesion h1, .AcentoAusContenido h2{
     color:rgb(218, 65, 10) ;
+    display: flex;
+    flex-direction: column;
 }
 
 .InputSesion{
@@ -571,7 +572,7 @@ main section img{
 .SeccionGrandePrincipianteAmer div{
     display: flex;
     justify-content: center;
-    align-items: cent;
+    align-items: center;
     color: white;
     font-size: 25px;
     width: 1000px;
@@ -675,4 +676,4 @@ main section img{
 .InformacionNosotros p, .cuadroWritingP p{
     color: white;
     font-size: 25px;
-}
+} 
